@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
     // TODO: implement initState
     super.initState();
     Future.delayed(const Duration(seconds: 3), () {
-      showPlatform == Platform.isIOS? Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_)=>const HomeIOS())) : Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_)=>const HomePage()));
+      showPlatform == Platform.isIOS? Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_)=>const HomeIOS())) : Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (_)=>HomePage()));
     });
   }
 
