@@ -35,7 +35,7 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset("assets/images/splash.png", height: 130,),
-            const SizedBox(height: 30,),
+            const SizedBox(height: 25,),
             showPlatform == Platform.isIOS ? const CupertinoActivityIndicator(
               radius: 15,
             ) : const CircularProgressIndicator(
